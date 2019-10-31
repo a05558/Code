@@ -11,6 +11,12 @@ while True:
         if action_str == "1":
             cards_tools.new_card()
 
+        elif action_str == "2":
+            cards_tools.show_all()
+
+        elif action_str == "3":
+            cards_tools.search_card()
+
     elif action_str == "0":
         print("欢迎再次使用【名片管理系统】")
 
